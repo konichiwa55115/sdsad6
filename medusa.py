@@ -17,10 +17,7 @@ Medusa = Client(
 
 
 PMTEXT = (
-    "<a href='https://en.wikipedia.org/wiki/Medusa'>**Medusa**</a> is a Greek mythology.\n"
-    "__Generally described as winged human females with living venomous snakes in place of hair."
-    " Those who gazed into her eyes would turn to stone.\nThe word '**Mousiki**' is the Greek word for"
-    " '**Music**'.__\n\n**However, I can download youtube songs for u immediately :)**\n__Check **help** to see the usage__"
+   "أنا بوت أقوم بتحميل الدروس من يوتيوب \n\n لبقية البوتات هنا \n\n https://t.me/ibnAlQyyim/1120 \n\n ممنوع استخدام البوت لتحميل الأغاني أو الموسيقا أو الشيلات أو الأناشيد الإسلامية أو أي شيء حرام \n\n . يمكنك التبرع لاستمرار المشروع من هنا \n\n (http://paypal.me/kelectronic89)
 )
 PMKEYBOARD = InlineKeyboardMarkup(
     [
@@ -31,7 +28,7 @@ PMKEYBOARD = InlineKeyboardMarkup(
         ],
         [
             InlineKeyboardButton(
-                'Add me to a group 🎊', url='http://t.me/MedusaMousikibot?startgroup=true')  # Replace the `MedusaMousikibot` with your bot username
+                'Add me to a group 🎊', url='http://t.me/audmergbot?startgroup=true')  # Replace the `MedusaMousikibot` with your bot username
         ]
     ]
 )
@@ -76,7 +73,7 @@ async def start_cmd(_, msg: Message):
                         InlineKeyboardButton(
                             text='Start me in PM :)',
                             # Replace the `MedusaMousikibot` with your bot username
-                            url=f't.me/MedusaMousikibot?start=help'
+                            url=f't.me/audmergbot?start=help'
                         )
                     ]
                 ]
